@@ -106,6 +106,9 @@
   .app-view{
     flex:1 1 auto;
   }
+  .el-menu--collapse {
+    width: 64px !important;
+  }
   #app {
     position: absolute;
     left:0;
@@ -115,34 +118,5 @@
     background: #F0F0F0;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     color: #2c3e50;
-  }
-
-  *{
-    margin:0;
-    padding: 0;
-  }
-  ul li{
-    list-style: none;
-  }
-  .navul{
-    margin:100px auto 20px;
-    overflow: hidden;
-  }
-  .navul li{
-    background-color: #5597b4;
-    padding:18px 30px;
-    float:left;
-    color: #fff;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  .active{
-    background-color: #5597b4;
-  }
-  .home .home,.new .new,.contact .contact,.service .service{
-    background-color: skyblue;
-  }
-  .checked{
-    background: #eff4f7;
   }
 </style>
